@@ -1,15 +1,35 @@
-Windows + G		> Opens gmail
-CTRL + N		> Create new email
-someone@domain.com	> Enter in the desired destination email.
-ENTER			> Confirms the email address you entered
+GUI g
+REM This opens the gmail app.
+DELAY ???
+REM This gives the phone a litte bit to open the Gmail app.
+CTRL n
+REM This creates a new email.  The cursor will already be on the "To:" field.
+STRING address@domain.com
+REM This fills in the "To:" field.  Replace with whatever email address you want to send the email to.
 TAB
-TAB			> Moves cursor to Subject Line
-[Email Subject]		> Add an email subject.
-TAB			> Moves Cursor to body.
-Text.			> Add text to body.
+TAB
+REM Moves the cursor to the "Subject" line.
+STRING Ducky email
+REM The above is the subject line.  Make it whatever you want.
+TAB
+REM This moves the cursor to the body of the email.
+STRING See attached.
+REM The above line the body of the email.  Make it whatever you want.
 
-Magic happens?
+REM This is the part I still have to figure out, how to open the "Attach Files" menu.
 
-SHIFT + DOWN ARROW	> Selects file(s).
-SHIFT + ENTER		> Attaches files.
-CTRL + ENTER		> Send the email.
+DOWNARROW
+ENTER
+REM This opens a new window where you can select the files.
+DOWNARROW
+SHIFT DOWNARROW
+SHIFT DOWNARROW
+SHIFT RIGHTARROW
+REM The above selects the top 5 files listed for attaching.
+SHIFT TAB
+SHIFT TAB
+SHIFT TAB
+ENTER
+REM This moves the cursor to the "Open" button and "clicks" it.
+CTRL ENTER
+REM This sends the email.
