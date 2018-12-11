@@ -1,0 +1,15 @@
+Windows + G		> Opens gmail
+CTRL + N		> Create new email
+someone@domain.com	> Enter in the desired destination email.
+ENTER			> Confirms the email address you entered
+TAB
+TAB			> Moves cursor to Subject Line
+[Email Subject]		> Add an email subject.
+TAB			> Moves Cursor to body.
+Text.			> Add text to body.
+
+Magic happens?
+
+SHIFT + DOWN ARROW	> Selects file(s).
+SHIFT + ENTER		> Attaches files.
+CTRL + ENTER		> Send the email.
