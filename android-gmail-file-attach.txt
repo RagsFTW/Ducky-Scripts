@@ -1,8 +1,9 @@
 GUI g
 REM This opens the gmail app.
-DELAY ???
+DELAY 1000
 REM This gives the phone a litte bit to open the Gmail app.
 CTRL n
+DELAY 1000
 REM This creates a new email.  The cursor will already be on the "To:" field.
 STRING address@domain.com
 REM This fills in the "To:" field.  Replace with whatever email address you want to send the email to.
