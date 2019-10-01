@@ -50,6 +50,8 @@ TAB
 DELAY 250
 TAB
 DELAY 250
+TAB
+DELAY 250
 REM This moves the cursor to the appropiate menu.
 ENTER
 DELAY 250
